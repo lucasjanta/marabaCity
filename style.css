@@ -8,6 +8,19 @@
 
 @media (max-width: 720px) {
     
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+    body{
+/* Created with https://www.css-gradient.com */
+background: #B92C6E;
+background: -webkit-linear-gradient(bottom, #B92C6E, #AB31C6);
+background: -moz-linear-gradient(bottom, #B92C6E, #AB31C6);
+background: linear-gradient(to top, #B92C6E, #AB31C6);
+    }
+
     .logo{
         display: flex;
         justify-content: center;
@@ -46,7 +59,7 @@
         display: flex;
         width: 10rem;
         height: 50px;
-        background-color: red;
+        background-color: rgba(247, 247, 247, 0.332);
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         justify-content: center;
@@ -63,7 +76,7 @@
         width: 90vw;
         height: 85vh;
         gap: 1rem;
-        background-color: red;
+        background-color: rgba(247, 247, 247, 0.332);
         border-radius: 20px;
         border-top-left-radius: 0;
     }
@@ -73,7 +86,7 @@
         width: 80vw;
         height: 14vh;
         border-radius: 20px;
-        background-color: blue;
+        background-color: rgba(9, 9, 9, 0.262);
         align-items: center;
     }
 
@@ -81,8 +94,8 @@
         width: 5rem;
         height: 5rem;
         margin-left: 1rem;
-        background-color: azure;
-        border-radius: 200px;
+        background-color: rgba(9, 9, 9, 0.262);
+        border-radius: 20px;
     }
 
     .categorias{
@@ -100,6 +113,10 @@
         width: 90%;
         height: 5rem;
         font-size: 2rem;
+        background-color: rgba(247, 247, 247, 0.332);
+        border-radius: 20px;
+        border: unset;
+        
     }
 
 
