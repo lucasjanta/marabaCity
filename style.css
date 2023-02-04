@@ -5,3 +5,97 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+
+@media (max-width: 720px) {
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .logo h1{
+        color: white;
+        background-color: black;
+        width: fit-content;
+        padding: 2px 5px;
+    }
+
+    .logo h2{
+        font-size: 2rem;
+        margin-left: 0.4rem;
+    }
+
+    .weather {
+        margin: 1.5rem auto;
+        width: 90vw;
+        height: 5rem;
+        background-color: blue;
+    }
+
+    .destaques{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-45%);
+    }
+
+    .balaotexto{
+        display: flex;
+        width: 10rem;
+        height: 50px;
+        background-color: red;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .containerdestaques{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 85vh;
+        gap: 1rem;
+        background-color: red;
+        border-radius: 20px;
+        border-top-left-radius: 0;
+    }
+
+    .basicdest{
+        display: flex;
+        width: 80vw;
+        height: 14vh;
+        border-radius: 20px;
+        background-color: blue;
+        align-items: center;
+    }
+
+    .icon{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        background-color: azure;
+        border-radius: 200px;
+    }
+
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .catbutton{
+        width: 90%;
+        height: 5rem;
+    }
+
+}
