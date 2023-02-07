@@ -98,6 +98,28 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
         border-radius: 20px;
     }
 
+    .detalhes{
+        width: 90%;
+        height: 60%;
+    }
+
+    .iconesdetails{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: flex-end;
+        height: 1.5rem;
+        width: 95%;
+    }
+
+    .iconesdetails svg{
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 0.5rem;
+        height: 1rem;
+        width: 1rem;
+    }
+
     .categorias{
         display: flex;
         flex-direction: column;
@@ -116,8 +138,9 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
         background-color: rgba(247, 247, 247, 0.332);
         border-radius: 20px;
         border: unset;
-        
     }
+
+
 
 
     
