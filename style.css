@@ -91,25 +91,30 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
     .icon{
         width: 5rem;
         height: 5rem;
+        min-width: 5rem;
         margin-left: 1rem;
         background-color: rgba(9, 9, 9, 0.262);
         border-radius: 20px;
     }
 
+    .textos{
+        height: 100%;
+        padding-right: 1rem;
+    }
+
     .detalhes{
         display: flex;
-        width: 90%;
-        height: 60%;
-        margin-left: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70%;
+        width: 100%;
+        margin: 0.7rem;
     }
 
     .iconesdetails{
         display: flex;
         flex-direction: row;
-        gap: 0.5rem;
-        justify-content: flex-end;
-        height: 1.5rem;
-        width: 95%;
+        gap: 0.3rem;
     }
 
     .iconesdetails svg{
