@@ -66,8 +66,6 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
         align-items: center;
     }
 
-    
-
     .containerdestaques{
         display: flex;
         flex-direction: column;
@@ -99,14 +97,16 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
     }
 
     .detalhes{
+        display: flex;
         width: 90%;
         height: 60%;
+        margin-left: 1rem;
     }
 
     .iconesdetails{
         display: flex;
         flex-direction: row;
-        gap: 1rem;
+        gap: 0.5rem;
         justify-content: flex-end;
         height: 1.5rem;
         width: 95%;
