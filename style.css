@@ -12,14 +12,17 @@
 html {
     width: 100vw;
     overflow-x: hidden;
+    color: white;
 }
 
     body{
 /* Created with https://www.css-gradient.com */
-background: #B92C6E;
-background: -webkit-linear-gradient(bottom, #B92C6E, #AB31C6);
-background: -moz-linear-gradient(bottom, #B92C6E, #AB31C6);
-background: linear-gradient(to top, #B92C6E, #AB31C6);
+    background: #151515;
+
+    }
+
+    header{
+        margin-bottom: 2rem;
     }
 
     .logo{
@@ -30,8 +33,8 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
     }
 
     .logo h1{
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: white;
         width: fit-content;
         padding: 2px 5px;
     }
@@ -39,13 +42,6 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
     .logo h2{
         font-size: 2rem;
         margin-left: 0.4rem;
-    }
-
-    .weather {
-        margin: 1.5rem auto;
-        width: 90vw;
-        height: 5rem;
-        background-color: blue;
     }
 
     section{
@@ -91,7 +87,7 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
         width: 82vw;
         height: 16vh;
         border-radius: 20px;
-        background-color: rgba(9, 9, 9, 0.262);
+        background-color: rgba(9, 9, 9, 0.3);
         align-items: center;
     }
 
@@ -149,9 +145,30 @@ background: linear-gradient(to top, #B92C6E, #AB31C6);
         width: 100%;
         height: 5rem;
         font-size: 2rem;
-        background-color: rgba(247, 247, 247, 0.332);
+        background-color: rgba(247, 247, 247, 0.2);
         border-radius: 20px;
-        border: unset;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .catbutton:hover{
+        animation: baloes 2s forwards;
+    }
+
+    .pontos{
+        font-size: 1.4rem;
+    }
+
+    @keyframes baloes {
+        0%{
+            border-color: white;
+        }
+        25%{
+            border-color: green;
+        }
+        100%{
+            border-color: yellow;
+        }
     }
 
 
